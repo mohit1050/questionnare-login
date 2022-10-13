@@ -1,0 +1,37 @@
+<div class="container">
+
+    <!-- <h1> Display Data from Json File in Angular 9 </h1>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let student of students">
+                <td>{{ student.id }}</td>
+                <td>{{ student.name }}</td>
+                <td>{{ student.email }}</td>
+                <td>{{ student.gender }}</td>
+            </tr>
+        </tbody>
+    </table> -->
+
+    <div *ngFor="let student of students">
+        <p>{{student.id}}).{{ student.name}}: <br>
+            <input type="radio" value="1" name={{student.id}}>{{student.id}}<BR>
+            <input type="radio" value="2" name={{student.id}}>{{student.name}}<BR>
+            <input type="radio" value="3" name={{student.id}}>{{student.email}}<BR>
+            <input type="radio" value="4" name={{student.id}}>{{student.gender}}<BR>
+            <!-- {{value}} -->
+        </p>
+    </div><br>
+
+    <button (click)="getJsonResult()">Get JSON Result</button>
+    {{ submitData | json }}
+
+</div>

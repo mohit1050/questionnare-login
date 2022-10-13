@@ -1,0 +1,82 @@
+{
+  "questions": [
+    {
+      "name": "AngularJS is a ____",
+      "qid": 1,
+      "options": [
+        {
+          "name": "JAVA framework",
+          "aid": 1,
+          "isAnswer": true
+        },
+        {
+          "name": "JavaScript framework",
+          "aid": 2,
+          "isAnswer": true
+        },
+        {
+          "name": "HTML Framework",
+          "aid": 3,
+          "isAnswer": true
+        },
+        {
+          "name": "SQL Framework",
+          "aid": 4,
+          "isAnswer": true
+        }
+      ]
+    },
+    {
+      "name": "Which of the following community Angular JS belong to?",
+      "qid": 2,
+      "options": [
+        {
+          "name": "Twitter",
+          "aid": 1,
+          "isAnswer": false
+        },
+        {
+          "name": "Facebook",
+          "aid": 2,
+          "isAnswer": false
+        },
+        {
+          "name": "Google",
+          "aid": 3,
+          "isAnswer": true
+        },
+        {
+          "name": "Microsoft",
+          "aid": 4,
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "name": "AngularJS applications are a mix of which of the following technologies?",
+      "qid": 3,
+      "options": [
+        {
+          "name": "HTML and PHP",
+          "aid": 1,
+          "isAnswer": true
+        },
+        {
+          "name": "HTML and JavaScript",
+          "aid": 2,
+          "isAnswer": true
+        },
+        {
+          "name": "HTML and TypeScript",
+          "aid": 3,
+          "isAnswer": true
+        },
+        {
+          "name": "PHP and JavaScript",
+          "aid": 4,
+          "isAnswer": true
+        }
+      ]
+    }
+  ]
+}

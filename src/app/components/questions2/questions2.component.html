@@ -1,0 +1,43 @@
+<div>
+    <div *ngFor="let question of data.questions">
+        <h3>{{question.name}}</h3>
+        <div *ngFor="let option of question.options">
+            <label>
+                <input type="radio" id="{{option.aid}}" [(ngModel)]="question.options.aid" value="{{option.aid}}"
+                    name="{{question.qid}}">
+                {{option.name}}
+            </label>
+        </div>
+
+
+        <!-- 
+        <label>
+            <input type="radio" id="1" [(ngModel)]="question.options.aid" value="1" name="{{question.qid}}">
+            {{option.name}}
+        </label>
+
+        <label>
+            <input type="radio" id="2" [(ngModel)]="question.options.aid" value="2" name="{{question.qid}}">
+            {{option.name}}
+        </label>
+
+        <label>
+            <input type="radio" id="3" [(ngModel)]="question.options.aid" value="3" name="{{question.qid}}">
+            {{option.name}}
+        </label>
+
+        <label>
+            <input type="radio" id="4" [(ngModel)]="question.options.aid" value="4" name="{{question.qid}}">
+            {{option.name}}
+        </label> -->
+
+
+    </div>
+</div>
+<pre>
+  {{ submitData | json }}
+</pre>
+
+<button (click)="getJsonResult()">Get JSON Result</button>
+<hr>
+<button (click)="download()">Download JSON Result</button>
